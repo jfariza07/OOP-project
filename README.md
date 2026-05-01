@@ -1,6 +1,6 @@
 # University Management System (OOP Project)
 
-## Team: Rustem (Team Lead), Olzhas, Ali, Togzhan
+## Team: Ali (Team Lead), Olzhas, Fariza, Togzhan
 
 ### Project Progress (Rustem's Part):
 - [x] Use Case Diagram in StarUML
