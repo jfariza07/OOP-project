@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 950" width="1400" height="950">
+<defs>
+  <marker id="arr" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto">
+    <polygon points="0 0,9 3.5,0 7" fill="#555"/>
+  </marker>
+  <marker id="inh" markerWidth="12" markerHeight="10" refX="11" refY="5" orient="auto">
+    <polygon points="0 0,12 5,0 10" fill="white" stroke="#555" stroke-width="1.2"/>
+  </marker>
+</defs>
+<rect width="1400" height="950" fill="#eef3fb"/>
+
+<text x="700" y="28" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" font-style="normal" fill="#1a252f">University Information System — Use Case Diagram</text>
+<rect x="180" y="50" width="1060" height="855" rx="6" fill="white" stroke="#1a252f" stroke-width="2.5"/>
+<text x="710" y="66" text-anchor="middle" font-family="Arial" font-size="10" font-weight="normal" font-style="normal" fill="#555">«system»</text>
+<text x="710" y="84" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" font-style="normal" fill="#1a252f">University Information System</text>
+<rect x="14" y="14" width="160" height="82" rx="4" fill="white" stroke="#7f8c8d" stroke-width="1.4"/>
+<rect x="14" y="14" width="160" height="26" rx="4" fill="#95a5a6" stroke="#7f8c8d" stroke-width="1.4"/>
+<text x="94" y="24" text-anchor="middle" font-family="Arial" font-size="9" font-weight="normal" font-style="normal" fill="white">«service»</text>
+<text x="94" y="37" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" font-style="normal" fill="white">AuthService</text>
+<line x1="14" y1="54" x2="174" y2="54" stroke="#7f8c8d" stroke-width="1.3"/>
+<text x="20" y="66" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">+ login(cred): User</text>
+<text x="20" y="80" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">+ logout(): void</text>
+<line x1="174" y1="55" x2="570" y2="130" stroke="#7f8c8d" stroke-width="1.2" stroke-dasharray="5,3" marker-end="url(#arr)"/>
+<text x="360" y="82" text-anchor="middle" font-family="Arial" font-size="9" font-weight="normal" font-style="italic" fill="#7f8c8d">«uses»</text>
+<line x1="80" y1="278" x2="700" y2="140" stroke="#aaa" stroke-width="1.1"  />
+<line x1="80" y1="278" x2="430" y2="290" stroke="#aaa" stroke-width="1.1"  />
+<line x1="80" y1="278" x2="430" y2="550" stroke="#aaa" stroke-width="1.1"  />
+<line x1="80" y1="278" x2="700" y2="700" stroke="#aaa" stroke-width="1.1"  />
+<line x1="80" y1="498" x2="700" y2="140" stroke="#aaa" stroke-width="1.1"  />
+<line x1="80" y1="498" x2="430" y2="290" stroke="#aaa" stroke-width="1.1"  />
+<line x1="80" y1="498" x2="700" y2="410" stroke="#aaa" stroke-width="1.1"  />
+<line x1="80" y1="498" x2="430" y2="550" stroke="#aaa" stroke-width="1.1"  />
+<line x1="80" y1="498" x2="700" y2="700" stroke="#aaa" stroke-width="1.1"  />
+<line x1="80" y1="758" x2="430" y2="550" stroke="#aaa" stroke-width="1.1"  />
+<line x1="1340" y1="258" x2="700" y2="140" stroke="#aaa" stroke-width="1.1"  />
+<line x1="1340" y1="258" x2="1020" y2="230" stroke="#aaa" stroke-width="1.1"  />
+<line x1="1340" y1="258" x2="700" y2="700" stroke="#aaa" stroke-width="1.1"  />
+<line x1="1340" y1="538" x2="700" y2="140" stroke="#aaa" stroke-width="1.1"  />
+<line x1="1340" y1="538" x2="700" y2="410" stroke="#aaa" stroke-width="1.1"  />
+<line x1="1340" y1="538" x2="1020" y2="400" stroke="#aaa" stroke-width="1.1"  />
+<line x1="1340" y1="538" x2="1020" y2="555" stroke="#aaa" stroke-width="1.1"  />
+<line x1="1340" y1="538" x2="1020" y2="700" stroke="#aaa" stroke-width="1.1"  />
+<line x1="1340" y1="538" x2="700" y2="700" stroke="#aaa" stroke-width="1.1"  />
+<ellipse cx="700" cy="140" rx="130" ry="28" fill="#d6eaf8" stroke="#2980b9" stroke-width="1.8"/>
+<text x="700" y="140.0" text-anchor="middle" font-family="Arial" font-size="11.5" font-weight="bold" font-style="normal" fill="#1a5276">Login / Authenticate</text>
+<ellipse cx="430" cy="290" rx="142" ry="30" fill="#d6eaf8" stroke="#2980b9" stroke-width="1.8"/>
+<text x="430" y="290.0" text-anchor="middle" font-family="Arial" font-size="11.5" font-weight="bold" font-style="normal" fill="#1a5276">Manage Academic Records</text>
+<ellipse cx="700" cy="410" rx="122" ry="28" fill="#d6eaf8" stroke="#2980b9" stroke-width="1.8"/>
+<text x="700" y="410.0" text-anchor="middle" font-family="Arial" font-size="11.5" font-weight="bold" font-style="normal" fill="#1a5276">Manage Courses</text>
+<ellipse cx="430" cy="550" rx="122" ry="28" fill="#d6eaf8" stroke="#2980b9" stroke-width="1.8"/>
+<text x="430" y="550.0" text-anchor="middle" font-family="Arial" font-size="11.5" font-weight="bold" font-style="normal" fill="#1a5276">Conduct Research</text>
+<ellipse cx="1020" cy="230" rx="145" ry="30" fill="#d6eaf8" stroke="#2980b9" stroke-width="1.8"/>
+<text x="1020" y="230.0" text-anchor="middle" font-family="Arial" font-size="11.5" font-weight="bold" font-style="normal" fill="#1a5276">Manage Users &amp; System Logs</text>
+<ellipse cx="1020" cy="400" rx="118" ry="28" fill="#d6eaf8" stroke="#2980b9" stroke-width="1.8"/>
+<text x="1020" y="400.0" text-anchor="middle" font-family="Arial" font-size="11.5" font-weight="bold" font-style="normal" fill="#1a5276">Plan &amp; Schedule</text>
+<ellipse cx="1020" cy="555" rx="118" ry="28" fill="#d6eaf8" stroke="#2980b9" stroke-width="1.8"/>
+<text x="1020" y="555.0" text-anchor="middle" font-family="Arial" font-size="11.5" font-weight="bold" font-style="normal" fill="#1a5276">Generate Reports</text>
+<ellipse cx="1020" cy="700" rx="108" ry="28" fill="#d6eaf8" stroke="#2980b9" stroke-width="1.8"/>
+<text x="1020" y="700.0" text-anchor="middle" font-family="Arial" font-size="11.5" font-weight="bold" font-style="normal" fill="#1a5276">Manage News</text>
+<ellipse cx="700" cy="700" rx="130" ry="28" fill="#d6eaf8" stroke="#2980b9" stroke-width="1.8"/>
+<text x="700" y="700.0" text-anchor="middle" font-family="Arial" font-size="11.5" font-weight="bold" font-style="normal" fill="#1a5276">Send Communication</text>
+<circle cx="80" cy="240" r="14" fill="none" stroke="#1a252f" stroke-width="2"/>
+<line x1="80" y1="254" x2="80" y2="278" stroke="#1a252f" stroke-width="2"  />
+<line x1="60" y1="262" x2="100" y2="262" stroke="#1a252f" stroke-width="2"  />
+<line x1="80" y1="278" x2="65" y2="302" stroke="#1a252f" stroke-width="2"  />
+<line x1="80" y1="278" x2="95" y2="302" stroke="#1a252f" stroke-width="2"  />
+<text x="80" y="318" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" font-style="normal" fill="#1a252f">Student</text>
+<text x="80" y="331" text-anchor="middle" font-family="Arial" font-size="10" font-weight="normal" font-style="italic" fill="#555">(Bachelor)</text>
+<circle cx="80" cy="460" r="14" fill="none" stroke="#1a252f" stroke-width="2"/>
+<line x1="80" y1="474" x2="80" y2="498" stroke="#1a252f" stroke-width="2"  />
+<line x1="60" y1="482" x2="100" y2="482" stroke="#1a252f" stroke-width="2"  />
+<line x1="80" y1="498" x2="65" y2="522" stroke="#1a252f" stroke-width="2"  />
+<line x1="80" y1="498" x2="95" y2="522" stroke="#1a252f" stroke-width="2"  />
+<text x="80" y="538" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" font-style="normal" fill="#1a252f">Teacher</text>
+<circle cx="80" cy="720" r="14" fill="none" stroke="#1a252f" stroke-width="2"/>
+<line x1="80" y1="734" x2="80" y2="758" stroke="#1a252f" stroke-width="2"  />
+<line x1="60" y1="742" x2="100" y2="742" stroke="#1a252f" stroke-width="2"  />
+<line x1="80" y1="758" x2="65" y2="782" stroke="#1a252f" stroke-width="2"  />
+<line x1="80" y1="758" x2="95" y2="782" stroke="#1a252f" stroke-width="2"  />
+<text x="80" y="798" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" font-style="normal" fill="#1a252f">Researcher</text>
+<text x="80" y="811" text-anchor="middle" font-family="Arial" font-size="10" font-weight="normal" font-style="italic" fill="#555">(Student/Teacher/</text>
+<text x="80" y="824" text-anchor="middle" font-family="Arial" font-size="10" font-weight="normal" font-style="italic" fill="#555">Employee)</text>
+<circle cx="1340" cy="220" r="14" fill="none" stroke="#1a252f" stroke-width="2"/>
+<line x1="1340" y1="234" x2="1340" y2="258" stroke="#1a252f" stroke-width="2"  />
+<line x1="1320" y1="242" x2="1360" y2="242" stroke="#1a252f" stroke-width="2"  />
+<line x1="1340" y1="258" x2="1325" y2="282" stroke="#1a252f" stroke-width="2"  />
+<line x1="1340" y1="258" x2="1355" y2="282" stroke="#1a252f" stroke-width="2"  />
+<text x="1340" y="298" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" font-style="normal" fill="#1a252f">Admin</text>
+<circle cx="1340" cy="500" r="14" fill="none" stroke="#1a252f" stroke-width="2"/>
+<line x1="1340" y1="514" x2="1340" y2="538" stroke="#1a252f" stroke-width="2"  />
+<line x1="1320" y1="522" x2="1360" y2="522" stroke="#1a252f" stroke-width="2"  />
+<line x1="1340" y1="538" x2="1325" y2="562" stroke="#1a252f" stroke-width="2"  />
+<line x1="1340" y1="538" x2="1355" y2="562" stroke="#1a252f" stroke-width="2"  />
+<text x="1340" y="578" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" font-style="normal" fill="#1a252f">Manager</text>
+<polygon points="555,510 745,510 755,520 755,566 555,566" fill="#fff9c4" stroke="#e0a800" stroke-width="1.2"/>
+<line x1="745" y1="510" x2="745" y2="520" stroke="#e0a800" stroke-width="1.2"/>
+<line x1="745" y1="520" x2="755" y2="520" stroke="#e0a800" stroke-width="1.2"/>
+<text x="561" y="526" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#7d4e00">«throws»</text>
+<text x="561" y="540" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#7d4e00">LowHIndexException</text>
+<text x="561" y="554" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#7d4e00">NonResearcherException</text>
+<line x1="555" y1="538" x2="480" y2="558" stroke="#e0a800" stroke-width="1.1" stroke-dasharray="4,2" marker-end="url(#arr)"/>
+<polygon points="555,255 745,255 755,265 755,311 555,311" fill="#fff9c4" stroke="#e0a800" stroke-width="1.2"/>
+<line x1="745" y1="255" x2="745" y2="265" stroke="#e0a800" stroke-width="1.2"/>
+<line x1="745" y1="265" x2="755" y2="265" stroke="#e0a800" stroke-width="1.2"/>
+<text x="561" y="271" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#7d4e00">«throws»</text>
+<text x="561" y="285" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#7d4e00">CourseRegistrationException</text>
+<text x="561" y="299" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#7d4e00">MaxAttemptsException</text>
+<line x1="555" y1="282" x2="570" y2="285" stroke="#e0a800" stroke-width="1.1" stroke-dasharray="4,2" marker-end="url(#arr)"/>
+<rect x="272" y="338" width="200" height="38" rx="4" fill="#eafaf1" stroke="#27ae60" stroke-width="1.4"/>
+<text x="280" y="353" text-anchor="start" font-family="Arial" font-size="10" font-weight="bold" font-style="normal" fill="#1e8449">★ NEW: Rate Teacher</text>
+<text x="280" y="366" text-anchor="start" font-family="Arial" font-size="9" font-weight="normal" font-style="normal" fill="#1e8449">  included in Academic Records</text>
+<line x1="372" y1="338" x2="393" y2="318" stroke="#27ae60" stroke-width="1.1" stroke-dasharray="4,2" marker-end="url(#arr)"/>
+<rect x="272" y="605" width="215" height="52" rx="4" fill="#eafaf1" stroke="#27ae60" stroke-width="1.4"/>
+<text x="280" y="620" text-anchor="start" font-family="Arial" font-size="10" font-weight="bold" font-style="normal" fill="#1e8449">★ NEW: Research Products</text>
+<text x="280" y="633" text-anchor="start" font-family="Arial" font-size="9" font-weight="normal" font-style="normal" fill="#1e8449">  Publish Research Paper</text>
+<text x="280" y="646" text-anchor="start" font-family="Arial" font-size="9" font-weight="normal" font-style="normal" fill="#1e8449">  Join Research Project</text>
+<line x1="385" y1="605" x2="430" y2="575" stroke="#27ae60" stroke-width="1.1" stroke-dasharray="4,2" marker-end="url(#arr)"/>
+<rect x="1240" y="800" width="148" height="110" rx="4" fill="white" stroke="#aaa" stroke-width="1.2"/>
+<text x="1314" y="815" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" font-style="normal" fill="#333">Legend</text>
+<line x1="1245" y1="821" x2="1383" y2="821" stroke="#ccc" stroke-width="1.3"/>
+<line x1="1248" y1="836" x2="1288" y2="836" stroke="#888" stroke-width="1.2"  />
+<text x="1295" y="840" text-anchor="start" font-family="Arial" font-size="10" font-weight="normal" font-style="normal" fill="#333">Association</text>
+<line x1="1248" y1="855" x2="1288" y2="855" stroke="#7f8c8d" stroke-width="1.2" stroke-dasharray="5,3" />
+<text x="1295" y="859" text-anchor="start" font-family="Arial" font-size="10" font-weight="normal" font-style="normal" fill="#333">Dependency</text>
+<polygon points="1266,868 1248,874 1266,880" fill="#fff9c4" stroke="#e0a800" stroke-width="1"/>
+<text x="1295" y="878" text-anchor="start" font-family="Arial" font-size="10" font-weight="normal" font-style="normal" fill="#333">Exception note</text>
+<rect x="1248" y="888" width="40" height="14" rx="3" fill="#eafaf1" stroke="#27ae60" stroke-width="1"/>
+<text x="1295" y="899" text-anchor="start" font-family="Arial" font-size="10" font-weight="normal" font-style="normal" fill="#333">New feature</text>
+</svg>

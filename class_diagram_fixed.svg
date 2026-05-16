@@ -1,0 +1,347 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2750 1380" width="2750" height="1380">
+<defs>
+  <marker id="arr" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto">
+    <polygon points="0 0,9 3.5,0 7" fill="#555"/>
+  </marker>
+  <marker id="inh" markerWidth="12" markerHeight="10" refX="11" refY="5" orient="auto">
+    <polygon points="0 0,12 5,0 10" fill="white" stroke="#555" stroke-width="1.3"/>
+  </marker>
+  <marker id="impl" markerWidth="12" markerHeight="10" refX="11" refY="5" orient="auto">
+    <polygon points="0 0,12 5,0 10" fill="white" stroke="#2980b9" stroke-width="1.3"/>
+  </marker>
+</defs>
+<rect width="2750" height="1380" fill="#f4f6f9"/>
+
+<text x="1375" y="28" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" font-style="normal" fill="#1a252f">University IS — Class Diagram (Before Design Patterns)</text>
+<rect x="20" y="50" width="185" height="36" rx="3" fill="#ffe6cc" stroke="#d6b656" stroke-width="1.5"/>
+<text x="112" y="62" text-anchor="middle" font-family="Arial" font-size="9" font-weight="normal" font-style="normal" fill="#555">«exception»</text>
+<text x="112" y="75" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" font-style="normal" fill="#1a252f">LowHIndexException</text>
+<rect x="20" y="86" width="185" height="28" rx="3" fill="white" stroke="#d6b656" stroke-width="1.5"/>
+<text x="25" y="100" text-anchor="start" font-family="Arial" font-size="9" font-weight="normal" font-style="normal" fill="#777">extends RuntimeException</text>
+<rect x="215" y="50" width="210" height="36" rx="3" fill="#ffe6cc" stroke="#d6b656" stroke-width="1.5"/>
+<text x="320" y="62" text-anchor="middle" font-family="Arial" font-size="9" font-weight="normal" font-style="normal" fill="#555">«exception»</text>
+<text x="320" y="75" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" font-style="normal" fill="#1a252f">NonResearcherException</text>
+<rect x="215" y="86" width="210" height="28" rx="3" fill="white" stroke="#d6b656" stroke-width="1.5"/>
+<text x="220" y="100" text-anchor="start" font-family="Arial" font-size="9" font-weight="normal" font-style="normal" fill="#777">extends RuntimeException</text>
+<rect x="435" y="50" width="225" height="36" rx="3" fill="#ffe6cc" stroke="#d6b656" stroke-width="1.5"/>
+<text x="547" y="62" text-anchor="middle" font-family="Arial" font-size="9" font-weight="normal" font-style="normal" fill="#555">«exception»</text>
+<text x="547" y="75" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" font-style="normal" fill="#1a252f">CourseRegistrationException</text>
+<rect x="435" y="86" width="225" height="28" rx="3" fill="white" stroke="#d6b656" stroke-width="1.5"/>
+<text x="440" y="100" text-anchor="start" font-family="Arial" font-size="9" font-weight="normal" font-style="normal" fill="#777">extends RuntimeException</text>
+<rect x="670" y="50" width="200" height="36" rx="3" fill="#ffe6cc" stroke="#d6b656" stroke-width="1.5"/>
+<text x="770" y="62" text-anchor="middle" font-family="Arial" font-size="9" font-weight="normal" font-style="normal" fill="#555">«exception»</text>
+<text x="770" y="75" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" font-style="normal" fill="#1a252f">MaxAttemptsException</text>
+<rect x="670" y="86" width="200" height="28" rx="3" fill="white" stroke="#d6b656" stroke-width="1.5"/>
+<text x="675" y="100" text-anchor="start" font-family="Arial" font-size="9" font-weight="normal" font-style="normal" fill="#777">extends RuntimeException</text>
+<rect x="890" y="50" width="165" height="36" rx="3" fill="#e1d5e7" stroke="#9673a6" stroke-width="1.5"/>
+<text x="972" y="62" text-anchor="middle" font-family="Arial" font-size="9" font-weight="normal" font-style="normal" fill="#555">«enumeration»</text>
+<text x="972" y="75" text-anchor="middle" font-family="Arial" font-size="11.5" font-weight="bold" font-style="normal" fill="#1a252f">TeacherTitle</text>
+<rect x="890" y="86" width="165" height="66" rx="3" fill="white" stroke="#9673a6" stroke-width="1.5"/>
+<text x="895" y="98" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">TUTOR</text>
+<text x="895" y="113" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">LECTURER</text>
+<text x="895" y="128" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">SENIOR_LECTURER</text>
+<text x="895" y="143" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">PROFESSOR</text>
+<rect x="1065" y="50" width="145" height="36" rx="3" fill="#e1d5e7" stroke="#9673a6" stroke-width="1.5"/>
+<text x="1137" y="62" text-anchor="middle" font-family="Arial" font-size="9" font-weight="normal" font-style="normal" fill="#555">«enumeration»</text>
+<text x="1137" y="75" text-anchor="middle" font-family="Arial" font-size="11.5" font-weight="bold" font-style="normal" fill="#1a252f">LessonType</text>
+<rect x="1065" y="86" width="145" height="36" rx="3" fill="white" stroke="#9673a6" stroke-width="1.5"/>
+<text x="1070" y="98" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">LECTURE</text>
+<text x="1070" y="113" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">PRACTICE</text>
+<rect x="1220" y="50" width="160" height="36" rx="3" fill="#e1d5e7" stroke="#9673a6" stroke-width="1.5"/>
+<text x="1300" y="62" text-anchor="middle" font-family="Arial" font-size="9" font-weight="normal" font-style="normal" fill="#555">«enumeration»</text>
+<text x="1300" y="75" text-anchor="middle" font-family="Arial" font-size="11.5" font-weight="bold" font-style="normal" fill="#1a252f">ManagerType</text>
+<rect x="1220" y="86" width="160" height="66" rx="3" fill="white" stroke="#9673a6" stroke-width="1.5"/>
+<text x="1225" y="98" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">OR</text>
+<text x="1225" y="113" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">DEPARTMENT</text>
+<text x="1225" y="128" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">DEAN</text>
+<text x="1225" y="143" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">RECTOR</text>
+<rect x="1390" y="50" width="120" height="36" rx="3" fill="#e1d5e7" stroke="#9673a6" stroke-width="1.5"/>
+<text x="1450" y="62" text-anchor="middle" font-family="Arial" font-size="9" font-weight="normal" font-style="normal" fill="#555">«enumeration»</text>
+<text x="1450" y="75" text-anchor="middle" font-family="Arial" font-size="11.5" font-weight="bold" font-style="normal" fill="#1a252f">Role</text>
+<rect x="1390" y="86" width="120" height="66" rx="3" fill="white" stroke="#9673a6" stroke-width="1.5"/>
+<text x="1395" y="98" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">STUDENT</text>
+<text x="1395" y="113" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">TEACHER</text>
+<text x="1395" y="128" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">ADMIN</text>
+<text x="1395" y="143" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">MANAGER</text>
+<rect x="1530" y="50" width="195" height="36" rx="3" fill="#dfe6e9" stroke="#7f8c8d" stroke-width="1.5"/>
+<text x="1627" y="62" text-anchor="middle" font-family="Arial" font-size="9" font-weight="normal" font-style="normal" fill="#555">«service»</text>
+<text x="1627" y="75" text-anchor="middle" font-family="Arial" font-size="11.5" font-weight="bold" font-style="normal" fill="#1a252f">AuthService</text>
+<rect x="1530" y="86" width="195" height="36" rx="3" fill="white" stroke="#7f8c8d" stroke-width="1.5"/>
+<text x="1535" y="98" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">- instance: AuthService</text>
+<text x="1535" y="113" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">- currentUser: User</text>
+<rect x="1530" y="122" width="195" height="66" rx="3" fill="white" stroke="#7f8c8d" stroke-width="1.5"/>
+<text x="1535" y="134" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">+ getInstance(): AuthService</text>
+<text x="1535" y="149" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">+ login(l,p): User</text>
+<text x="1535" y="164" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">+ logout(): void</text>
+<text x="1535" y="179" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">+ requireLogin(): void</text>
+<line x1="1627" y1="188" x2="1060" y2="215" stroke="#7f8c8d" stroke-width="1.3" stroke-dasharray="5,3" marker-end="url(#arr)"/>
+<text x="1260" y="165" text-anchor="middle" font-family="Arial" font-size="9" font-weight="normal" font-style="italic" fill="#7f8c8d">«uses»</text>
+<rect x="950" y="215" width="230" height="36" rx="3" fill="#dae8fc" stroke="#6c8ebf" stroke-width="1.5"/>
+<text x="1065" y="227" text-anchor="middle" font-family="Arial" font-size="9" font-weight="normal" font-style="normal" fill="#555">«abstract»</text>
+<text x="1065" y="240" text-anchor="middle" font-family="Arial" font-size="11.5" font-weight="bold" font-style="normal" fill="#1a252f">User</text>
+<rect x="950" y="251" width="230" height="81" rx="3" fill="white" stroke="#6c8ebf" stroke-width="1.5"/>
+<text x="955" y="263" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333"># id: String</text>
+<text x="955" y="278" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333"># login: String</text>
+<text x="955" y="293" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333"># password: String</text>
+<text x="955" y="308" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333"># email: String</text>
+<text x="955" y="323" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333"># role: Role</text>
+<rect x="950" y="332" width="230" height="66" rx="3" fill="white" stroke="#6c8ebf" stroke-width="1.5"/>
+<text x="955" y="344" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">+ authenticate(): boolean</text>
+<text x="955" y="359" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">+ equals(): boolean</text>
+<text x="955" y="374" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">+ hashCode(): int</text>
+<text x="955" y="389" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">+ toString(): String</text>
+<rect x="540" y="485" width="240" height="26" rx="3" fill="#d5e8d4" stroke="#82b366" stroke-width="1.5"/>
+<text x="660" y="502" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" font-style="normal" fill="#1a252f">Student</text>
+<rect x="540" y="511" width="240" height="81" rx="3" fill="white" stroke="#82b366" stroke-width="1.5"/>
+<text x="545" y="523" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">- studentId: String</text>
+<text x="545" y="538" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">- gpa: double</text>
+<text x="545" y="553" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">- credits: int</text>
+<text x="545" y="568" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">- year: int</text>
+<text x="545" y="583" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">- major: String</text>
+<rect x="540" y="592" width="240" height="81" rx="3" fill="white" stroke="#82b366" stroke-width="1.5"/>
+<text x="545" y="604" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">+ registerCourse(c): void</text>
+<text x="545" y="619" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">+ viewMarks(): List</text>
+<text x="545" y="634" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">+ getTranscript(): Transcript</text>
+<text x="545" y="649" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">+ rateTeacher(t,r): void  ★NEW</text>
+<text x="545" y="664" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">+ dropCourse(c): void</text>
+<rect x="1100" y="485" width="235" height="36" rx="3" fill="#dae8fc" stroke="#6c8ebf" stroke-width="1.5"/>
+<text x="1217" y="497" text-anchor="middle" font-family="Arial" font-size="9" font-weight="normal" font-style="normal" fill="#555">«abstract»</text>
+<text x="1217" y="510" text-anchor="middle" font-family="Arial" font-size="11.5" font-weight="bold" font-style="normal" fill="#1a252f">Employee</text>
+<rect x="1100" y="521" width="235" height="36" rx="3" fill="white" stroke="#6c8ebf" stroke-width="1.5"/>
+<text x="1105" y="533" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">- employeeId: String</text>
+<text x="1105" y="548" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">- department: String</text>
+<rect x="1100" y="557" width="235" height="36" rx="3" fill="white" stroke="#6c8ebf" stroke-width="1.5"/>
+<text x="1105" y="569" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">+ sendMessage(to,msg): Message</text>
+<text x="1105" y="584" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">+ sendComplaint(r,s,c): Complaint</text>
+<line x1="660" y1="485" x2="1065" y2="398" stroke="#555" stroke-width="1.4"  marker-end="url(#inh)"/>
+<line x1="1217" y1="485" x2="1065" y2="398" stroke="#555" stroke-width="1.4"  marker-end="url(#inh)"/>
+<rect x="700" y="800" width="245" height="26" rx="3" fill="#d5e8d4" stroke="#82b366" stroke-width="1.5"/>
+<text x="822" y="817" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" font-style="normal" fill="#1a252f">Teacher</text>
+<rect x="700" y="826" width="245" height="51" rx="3" fill="white" stroke="#82b366" stroke-width="1.5"/>
+<text x="705" y="838" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">- title: TeacherTitle</text>
+<text x="705" y="853" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">- courses: List</text>
+<text x="705" y="868" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">- ratingsReceived: List</text>
+<rect x="700" y="877" width="245" height="81" rx="3" fill="white" stroke="#82b366" stroke-width="1.5"/>
+<text x="705" y="889" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">+ putMark(s,c,m): void</text>
+<text x="705" y="904" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">+ manageCourse(c): void</text>
+<text x="705" y="919" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">+ viewStudents(): List</text>
+<text x="705" y="934" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">+ receiveRating(r): void</text>
+<text x="705" y="949" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">+ getAverageRating(): double</text>
+<rect x="1010" y="800" width="200" height="26" rx="3" fill="#d5e8d4" stroke="#82b366" stroke-width="1.5"/>
+<text x="1110" y="817" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" font-style="normal" fill="#1a252f">Admin</text>
+<rect x="1010" y="826" width="200" height="22" rx="3" fill="white" stroke="#82b366" stroke-width="1.5"/>
+<text x="1015" y="838" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">- logs: List</text>
+<rect x="1010" y="848" width="200" height="66" rx="3" fill="white" stroke="#82b366" stroke-width="1.5"/>
+<text x="1015" y="860" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">+ addUser(u): void</text>
+<text x="1015" y="875" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">+ removeUser(id): void</text>
+<text x="1015" y="890" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">+ viewLogs(): List</text>
+<text x="1015" y="905" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">+ logAction(a): void</text>
+<rect x="1225" y="800" width="235" height="26" rx="3" fill="#d5e8d4" stroke="#82b366" stroke-width="1.5"/>
+<text x="1342" y="817" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" font-style="normal" fill="#1a252f">Manager</text>
+<rect x="1225" y="826" width="235" height="22" rx="3" fill="white" stroke="#82b366" stroke-width="1.5"/>
+<text x="1230" y="838" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">- managerType: ManagerType</text>
+<rect x="1225" y="848" width="235" height="81" rx="3" fill="white" stroke="#82b366" stroke-width="1.5"/>
+<text x="1230" y="860" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">+ approveRegistration(): void</text>
+<text x="1230" y="875" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">+ assignTeacher(t,c): void</text>
+<text x="1230" y="890" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">+ generateReport(s): Report</text>
+<text x="1230" y="905" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">+ manageNews(): void</text>
+<text x="1230" y="920" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">+ addCourse(c): void</text>
+<line x1="822" y1="800" x2="1217" y2="593" stroke="#555" stroke-width="1.4"  marker-end="url(#inh)"/>
+<line x1="1110" y1="800" x2="1217" y2="593" stroke="#555" stroke-width="1.4"  marker-end="url(#inh)"/>
+<line x1="1342" y1="800" x2="1217" y2="593" stroke="#555" stroke-width="1.4"  marker-end="url(#inh)"/>
+<rect x="680" y="1060" width="245" height="26" rx="3" fill="#d5e8d4" stroke="#82b366" stroke-width="1.5"/>
+<text x="802" y="1077" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" font-style="normal" fill="#1a252f">TeacherResearcher</text>
+<rect x="680" y="1086" width="245" height="51" rx="3" fill="white" stroke="#82b366" stroke-width="1.5"/>
+<text x="685" y="1098" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">- hIndex: int</text>
+<text x="685" y="1113" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">- papers: List</text>
+<text x="685" y="1128" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">- projects: List</text>
+<rect x="680" y="1137" width="245" height="51" rx="3" fill="white" stroke="#82b366" stroke-width="1.5"/>
+<text x="685" y="1149" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">+ addPaper(p): void</text>
+<text x="685" y="1164" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">+ joinProject(p): void</text>
+<text x="685" y="1179" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">+ printPapers(c: Comparator): void</text>
+<rect x="400" y="800" width="215" height="26" rx="3" fill="#d5e8d4" stroke="#82b366" stroke-width="1.5"/>
+<text x="507" y="817" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" font-style="normal" fill="#1a252f">StudentResearcher</text>
+<rect x="400" y="826" width="215" height="51" rx="3" fill="white" stroke="#82b366" stroke-width="1.5"/>
+<text x="405" y="838" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">- hIndex: int</text>
+<text x="405" y="853" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">- papers: List</text>
+<text x="405" y="868" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">- projects: List</text>
+<rect x="400" y="877" width="215" height="51" rx="3" fill="white" stroke="#82b366" stroke-width="1.5"/>
+<text x="405" y="889" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">+ addPaper(p): void</text>
+<text x="405" y="904" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">+ joinProject(p): void</text>
+<text x="405" y="919" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">+ printPapers(c: Comparator): void</text>
+<line x1="802" y1="1060" x2="822" y2="958" stroke="#555" stroke-width="1.4"  marker-end="url(#inh)"/>
+<line x1="507" y1="800" x2="660" y2="673" stroke="#555" stroke-width="1.4"  marker-end="url(#inh)"/>
+<rect x="1560" y="350" width="230" height="36" rx="3" fill="#fff2cc" stroke="#d6b656" stroke-width="1.5"/>
+<text x="1675" y="362" text-anchor="middle" font-family="Arial" font-size="9" font-weight="normal" font-style="normal" fill="#555">«interface»</text>
+<text x="1675" y="375" text-anchor="middle" font-family="Arial" font-size="11.5" font-weight="bold" font-style="normal" fill="#1a252f">Researcher</text>
+<rect x="1560" y="386" width="230" height="51" rx="3" fill="white" stroke="#d6b656" stroke-width="1.5"/>
+<text x="1565" y="398" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">+ hIndex: int</text>
+<text x="1565" y="413" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">+ papers: List</text>
+<text x="1565" y="428" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">+ projects: List</text>
+<rect x="1560" y="437" width="230" height="51" rx="3" fill="white" stroke="#d6b656" stroke-width="1.5"/>
+<text x="1565" y="449" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">+ addPaper(p): void</text>
+<text x="1565" y="464" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">+ joinProject(p): void</text>
+<text x="1565" y="479" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">+ printPapers(c: Comparator): void</text>
+<line x1="1067" y1="830" x2="1675" y2="488" stroke="#2980b9" stroke-width="1.3" stroke-dasharray="6,3" marker-end="url(#impl)"/>
+<text x="1460" y="770" text-anchor="start" font-family="Arial" font-size="8.5" font-weight="normal" font-style="italic" fill="#2980b9">«implements»</text>
+<line x1="614" y1="800" x2="1675" y2="478" stroke="#2980b9" stroke-width="1.3" stroke-dasharray="6,3" marker-end="url(#impl)"/>
+<rect x="1560" y="660" width="240" height="26" rx="3" fill="#d5e8d4" stroke="#82b366" stroke-width="1.5"/>
+<text x="1680" y="677" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" font-style="normal" fill="#1a252f">ResearchPaper</text>
+<rect x="1560" y="686" width="240" height="126" rx="3" fill="white" stroke="#82b366" stroke-width="1.5"/>
+<text x="1565" y="698" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">- doi: String</text>
+<text x="1565" y="713" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">- title: String</text>
+<text x="1565" y="728" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">- authors: List</text>
+<text x="1565" y="743" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">- journal: String</text>
+<text x="1565" y="758" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">- citations: int</text>
+<text x="1565" y="773" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">- pages: int</text>
+<text x="1565" y="788" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">- datePublished: LocalDate</text>
+<text x="1565" y="803" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">- volume: int</text>
+<rect x="1560" y="812" width="240" height="66" rx="3" fill="white" stroke="#82b366" stroke-width="1.5"/>
+<text x="1565" y="824" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">+ compareTo(o): int</text>
+<text x="1565" y="839" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">+ toString(): String</text>
+<text x="1565" y="854" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">+ equals(): boolean</text>
+<text x="1565" y="869" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">+ hashCode(): int</text>
+<line x1="1675" y1="488" x2="1680" y2="660" stroke="#555" stroke-width="1.2"/>
+<text x="1677" y="570" text-anchor="middle" font-family="Arial" font-size="9" font-weight="normal" font-style="italic" fill="#555">+papers</text>
+<text x="1680" y="484" text-anchor="start" font-family="Arial" font-size="9" font-weight="normal" font-style="normal" fill="#555">1</text>
+<text x="1662" y="656" text-anchor="start" font-family="Arial" font-size="9" font-weight="normal" font-style="normal" fill="#555">0..*</text>
+<rect x="1820" y="660" width="225" height="26" rx="3" fill="#d5e8d4" stroke="#82b366" stroke-width="1.5"/>
+<text x="1932" y="677" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" font-style="normal" fill="#1a252f">ResearchProject</text>
+<rect x="1820" y="686" width="225" height="51" rx="3" fill="white" stroke="#82b366" stroke-width="1.5"/>
+<text x="1825" y="698" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">- topic: String</text>
+<text x="1825" y="713" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">- participants: List</text>
+<text x="1825" y="728" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">- publishedPapers: List</text>
+<rect x="1820" y="737" width="225" height="51" rx="3" fill="white" stroke="#82b366" stroke-width="1.5"/>
+<text x="1825" y="749" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">+ addParticipant(r): void</text>
+<text x="1825" y="764" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">+ publishPaper(p): void</text>
+<text x="1825" y="779" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">+ toString(): String</text>
+<line x1="1905" y1="410" x2="1932" y2="660" stroke="#555" stroke-width="1.2"/>
+<text x="1918" y="531" text-anchor="middle" font-family="Arial" font-size="9" font-weight="normal" font-style="italic" fill="#555">+projects</text>
+<text x="1910" y="406" text-anchor="start" font-family="Arial" font-size="9" font-weight="normal" font-style="normal" fill="#555">1</text>
+<text x="1914" y="656" text-anchor="start" font-family="Arial" font-size="9" font-weight="normal" font-style="normal" fill="#555">0..*</text>
+<rect x="2060" y="300" width="235" height="26" rx="3" fill="#d5e8d4" stroke="#82b366" stroke-width="1.5"/>
+<text x="2177" y="317" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" font-style="normal" fill="#1a252f">Course</text>
+<rect x="2060" y="326" width="235" height="111" rx="3" fill="white" stroke="#82b366" stroke-width="1.5"/>
+<text x="2065" y="338" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">- courseId: String</text>
+<text x="2065" y="353" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">- name: String</text>
+<text x="2065" y="368" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">- credits: int</text>
+<text x="2065" y="383" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">- targetMajor: String</text>
+<text x="2065" y="398" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">- targetYear: int</text>
+<text x="2065" y="413" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">- instructors: List</text>
+<text x="2065" y="428" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">- students: List</text>
+<rect x="2060" y="437" width="235" height="66" rx="3" fill="white" stroke="#82b366" stroke-width="1.5"/>
+<text x="2065" y="449" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">+ addInstructor(t): void</text>
+<text x="2065" y="464" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">+ addStudent(s): void</text>
+<text x="2065" y="479" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">+ removeStudent(s): void</text>
+<text x="2065" y="494" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">+ toString(): String</text>
+<line x1="1067" y1="820" x2="2177" y2="401" stroke="#555" stroke-width="1.2"/>
+<text x="1622" y="606" text-anchor="middle" font-family="Arial" font-size="9" font-weight="normal" font-style="italic" fill="#555">+teaches</text>
+<text x="1072" y="816" text-anchor="start" font-family="Arial" font-size="9" font-weight="normal" font-style="normal" fill="#555">1..*</text>
+<text x="2159" y="397" text-anchor="start" font-family="Arial" font-size="9" font-weight="normal" font-style="normal" fill="#555">0..*</text>
+<line x1="660" y1="673" x2="2177" y2="483" stroke="#555" stroke-width="1.2"/>
+<text x="1418" y="574" text-anchor="middle" font-family="Arial" font-size="9" font-weight="normal" font-style="italic" fill="#555">+registered</text>
+<text x="665" y="669" text-anchor="start" font-family="Arial" font-size="9" font-weight="normal" font-style="normal" fill="#555">0..*</text>
+<text x="2159" y="479" text-anchor="start" font-family="Arial" font-size="9" font-weight="normal" font-style="normal" fill="#555">0..*</text>
+<rect x="2060" y="600" width="215" height="26" rx="3" fill="#d5e8d4" stroke="#82b366" stroke-width="1.5"/>
+<text x="2167" y="617" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" font-style="normal" fill="#1a252f">Lesson</text>
+<rect x="2060" y="626" width="215" height="66" rx="3" fill="white" stroke="#82b366" stroke-width="1.5"/>
+<text x="2065" y="638" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">- type: LessonType</text>
+<text x="2065" y="653" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">- date: LocalDate</text>
+<text x="2065" y="668" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">- topic: String</text>
+<text x="2065" y="683" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">- durationMinutes: int</text>
+<rect x="2060" y="692" width="215" height="22" rx="3" fill="white" stroke="#82b366" stroke-width="1.5"/>
+<text x="2065" y="704" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">+ toString(): String</text>
+<line x1="2177" y1="503" x2="2167" y2="600" stroke="#555" stroke-width="1.2"/>
+<text x="2172" y="547" text-anchor="middle" font-family="Arial" font-size="9" font-weight="normal" font-style="italic" fill="#555">+lessons</text>
+<text x="2182" y="499" text-anchor="start" font-family="Arial" font-size="9" font-weight="normal" font-style="normal" fill="#555">1</text>
+<text x="2149" y="596" text-anchor="start" font-family="Arial" font-size="9" font-weight="normal" font-style="normal" fill="#555">1..*</text>
+<rect x="2060" y="840" width="225" height="26" rx="3" fill="#d5e8d4" stroke="#82b366" stroke-width="1.5"/>
+<text x="2172" y="857" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" font-style="normal" fill="#1a252f">Mark</text>
+<rect x="2060" y="866" width="225" height="66" rx="3" fill="white" stroke="#82b366" stroke-width="1.5"/>
+<text x="2065" y="878" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">- firstAttestation: double</text>
+<text x="2065" y="893" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">- secondAttestation: double</text>
+<text x="2065" y="908" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">- finalExam: double</text>
+<text x="2065" y="923" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">- course: Course</text>
+<rect x="2060" y="932" width="225" height="66" rx="3" fill="white" stroke="#82b366" stroke-width="1.5"/>
+<text x="2065" y="944" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">+ computeTotal(): double</text>
+<text x="2065" y="959" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">+ getLetterGrade(): String</text>
+<text x="2065" y="974" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">+ isPassed(): boolean</text>
+<text x="2065" y="989" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">+ compareTo(o): int</text>
+<line x1="2172" y1="840" x2="780" y2="673" stroke="#555" stroke-width="1.2"/>
+<text x="1476" y="752" text-anchor="middle" font-family="Arial" font-size="9" font-weight="normal" font-style="italic" fill="#555">+marks</text>
+<text x="2177" y="836" text-anchor="start" font-family="Arial" font-size="9" font-weight="normal" font-style="normal" fill="#555">0..*</text>
+<text x="762" y="669" text-anchor="start" font-family="Arial" font-size="9" font-weight="normal" font-style="normal" fill="#555">1</text>
+<rect x="2320" y="300" width="215" height="26" rx="3" fill="#d5e8d4" stroke="#82b366" stroke-width="1.5"/>
+<text x="2427" y="317" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" font-style="normal" fill="#1a252f">Transcript</text>
+<rect x="2320" y="326" width="215" height="51" rx="3" fill="white" stroke="#82b366" stroke-width="1.5"/>
+<text x="2325" y="338" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">- student: Student</text>
+<text x="2325" y="353" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">- marks: List</text>
+<text x="2325" y="368" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">- generatedDate: LocalDate</text>
+<rect x="2320" y="377" width="215" height="36" rx="3" fill="white" stroke="#82b366" stroke-width="1.5"/>
+<text x="2325" y="389" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">+ getGPA(): double</text>
+<text x="2325" y="404" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">+ toString(): String</text>
+<line x1="2427" y1="300" x2="660" y2="673" stroke="#555" stroke-width="1.2"/>
+<text x="1543" y="482" text-anchor="middle" font-family="Arial" font-size="9" font-weight="normal" font-style="italic" fill="#555">+transcript</text>
+<text x="2432" y="296" text-anchor="start" font-family="Arial" font-size="9" font-weight="normal" font-style="normal" fill="#555">1</text>
+<text x="642" y="669" text-anchor="start" font-family="Arial" font-size="9" font-weight="normal" font-style="normal" fill="#555">1</text>
+<rect x="560" y="1210" width="225" height="26" rx="3" fill="#d5e8d4" stroke="#82b366" stroke-width="1.5"/>
+<text x="672" y="1227" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" font-style="normal" fill="#1a252f">Message</text>
+<rect x="560" y="1236" width="225" height="66" rx="3" fill="white" stroke="#82b366" stroke-width="1.5"/>
+<text x="565" y="1248" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">- sender: User</text>
+<text x="565" y="1263" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">- receiver: User</text>
+<text x="565" y="1278" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">- content: String</text>
+<text x="565" y="1293" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">- timestamp: LocalDateTime</text>
+<rect x="560" y="1302" width="225" height="51" rx="3" fill="white" stroke="#82b366" stroke-width="1.5"/>
+<text x="565" y="1314" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">+ toString(): String</text>
+<text x="565" y="1329" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">+ equals(): boolean</text>
+<text x="565" y="1344" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">+ hashCode(): int</text>
+<rect x="820" y="1210" width="205" height="26" rx="3" fill="#d5e8d4" stroke="#82b366" stroke-width="1.5"/>
+<text x="922" y="1227" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" font-style="normal" fill="#1a252f">Complaint</text>
+<rect x="820" y="1236" width="205" height="36" rx="3" fill="white" stroke="#82b366" stroke-width="1.5"/>
+<text x="825" y="1248" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">- subject: String</text>
+<text x="825" y="1263" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">- signedByDeanOrRector: boolean</text>
+<rect x="820" y="1272" width="205" height="36" rx="3" fill="white" stroke="#82b366" stroke-width="1.5"/>
+<text x="825" y="1284" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">+ sign(): void</text>
+<text x="825" y="1299" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">+ toString(): String</text>
+<line x1="922" y1="1210" x2="672" y2="1353" stroke="#555" stroke-width="1.4"  marker-end="url(#inh)"/>
+<line x1="1217" y1="593" x2="672" y2="1210" stroke="#555" stroke-width="1.2"/>
+<text x="944" y="897" text-anchor="middle" font-family="Arial" font-size="9" font-weight="normal" font-style="italic" fill="#555">+sends</text>
+<text x="1222" y="589" text-anchor="start" font-family="Arial" font-size="9" font-weight="normal" font-style="normal" fill="#555">1</text>
+<text x="654" y="1206" text-anchor="start" font-family="Arial" font-size="9" font-weight="normal" font-style="normal" fill="#555">0..*</text>
+<rect x="1090" y="1210" width="215" height="26" rx="3" fill="#d5e8d4" stroke="#82b366" stroke-width="1.5"/>
+<text x="1197" y="1227" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" font-style="normal" fill="#1a252f">Report</text>
+<rect x="1090" y="1236" width="215" height="36" rx="3" fill="white" stroke="#82b366" stroke-width="1.5"/>
+<text x="1095" y="1248" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">- students: List</text>
+<text x="1095" y="1263" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">- generatedDate: LocalDate</text>
+<rect x="1090" y="1272" width="215" height="51" rx="3" fill="white" stroke="#82b366" stroke-width="1.5"/>
+<text x="1095" y="1284" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">+ getAverageGpa(): double</text>
+<text x="1095" y="1299" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">+ countPassed(): long</text>
+<text x="1095" y="1314" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#333">+ getTopStudent(): Student</text>
+<rect x="20" y="980" width="280" height="80" rx="4" fill="#eaf4fb" stroke="#2980b9" stroke-width="1.3"/>
+<text x="26" y="997" text-anchor="start" font-family="Arial" font-size="10" font-weight="bold" font-style="normal" fill="#1a5276">Design Patterns Applied:</text>
+<text x="26" y="1012" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#1a5276">• Singleton — AuthService, DataStore</text>
+<text x="26" y="1026" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#1a5276">• Factory — UserFactory</text>
+<text x="26" y="1040" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#1a5276">• Strategy — ResearchPaperComparators</text>
+<text x="26" y="1054" text-anchor="start" font-family="Arial" font-size="9.5" font-weight="normal" font-style="normal" fill="#1a5276">• Decorator — TeacherResearcher, StudentResearcher</text>
+<rect x="2420" y="55" width="275" height="185" rx="4" fill="white" stroke="#aaa" stroke-width="1.2"/>
+<text x="2557" y="71" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" font-style="normal" fill="#333">Legend</text>
+<line x1="2428" y1="77" x2="2687" y2="77" stroke="#ccc" stroke-width="1.3"/>
+<line x1="2432" y1="97" x2="2482" y2="97" stroke="#555" stroke-width="1.4"  marker-end="url(#inh)"/>
+<text x="2490" y="101" text-anchor="start" font-family="Arial" font-size="10" font-weight="normal" font-style="normal" fill="#333">Inheritance (extends)</text>
+<line x1="2432" y1="117" x2="2482" y2="117" stroke="#2980b9" stroke-width="1.3" stroke-dasharray="6,3" marker-end="url(#impl)"/>
+<text x="2490" y="121" text-anchor="start" font-family="Arial" font-size="10" font-weight="normal" font-style="normal" fill="#333">Implements interface</text>
+<line x1="2432" y1="137" x2="2482" y2="137" stroke="#555" stroke-width="1.2"/>
+<text x="2490" y="141" text-anchor="start" font-family="Arial" font-size="10" font-weight="normal" font-style="normal" fill="#333">Association</text>
+<line x1="2432" y1="157" x2="2482" y2="157" stroke="#7f8c8d" stroke-width="1.3" stroke-dasharray="5,3" marker-end="url(#arr)"/>
+<text x="2490" y="161" text-anchor="start" font-family="Arial" font-size="10" font-weight="normal" font-style="normal" fill="#333">Dependency</text>
+<rect x="2432" y="168" width="48" height="14" rx="3" fill="#d5e8d4" stroke="#82b366" stroke-width="1"/>
+<text x="2490" y="177" text-anchor="start" font-family="Arial" font-size="10" font-weight="normal" font-style="normal" fill="#333">Class</text>
+<rect x="2432" y="183" width="48" height="14" rx="3" fill="#dae8fc" stroke="#6c8ebf" stroke-width="1"/>
+<text x="2490" y="192" text-anchor="start" font-family="Arial" font-size="10" font-weight="normal" font-style="normal" fill="#333">Abstract Class</text>
+<rect x="2432" y="198" width="48" height="14" rx="3" fill="#fff2cc" stroke="#d6b656" stroke-width="1"/>
+<text x="2490" y="207" text-anchor="start" font-family="Arial" font-size="10" font-weight="normal" font-style="normal" fill="#333">Interface</text>
+<rect x="2432" y="213" width="48" height="14" rx="3" fill="#ffe6cc" stroke="#d6b656" stroke-width="1"/>
+<text x="2490" y="222" text-anchor="start" font-family="Arial" font-size="10" font-weight="normal" font-style="normal" fill="#333">Exception</text>
+<rect x="2432" y="228" width="48" height="14" rx="3" fill="#e1d5e7" stroke="#9673a6" stroke-width="1"/>
+<text x="2490" y="237" text-anchor="start" font-family="Arial" font-size="10" font-weight="normal" font-style="normal" fill="#333">Enumeration</text>
+</svg>
